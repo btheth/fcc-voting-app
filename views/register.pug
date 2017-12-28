@@ -1,0 +1,25 @@
+include ./headers.pug
+	
+#main
+	center
+		h1 Register
+		
+		-if(message.length)
+			.alert.alert-danger #{message}
+				
+		form(action='register' method='post')
+			.form-group
+				label Username
+				input.form-control(type='text' name='username')
+			.form-group
+				label Password
+				input.form-control(type='password' name='password')
+			.form-group
+				label Verify Password
+				input.form-control(type='password' name='passtwo')
+			.form-group
+				label Email
+				input.form-control(type='text' name='email')
+			button.btn.btn-success.btn-lg(type='submit') Register
+			
+script(type='text/javascript' src='/public/js/headers.client.js')

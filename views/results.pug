@@ -1,0 +1,15 @@
+include ./headers.pug
+
+#main
+	center
+		h1#poll #{name}
+
+		p#votes Total Votes: #{votes}
+		canvas#result-chart(width='500' height='300')
+		
+		p#share Share Poll: 
+		p#link #{link}
+
+script(src='/chartjs/Chart.js')
+script(type='text/javascript' src='/public/js/results.client.js')
+script(type='text/javascript' src='/public/js/headers.client.js')

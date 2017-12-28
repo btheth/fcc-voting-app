@@ -1,0 +1,23 @@
+include ./headers.pug
+
+#main
+	center
+		h1#poll New Poll
+		p#user By #{user}
+		
+		-if(message.length)
+			.alert.alert-danger #{message}
+		
+		form#new-poll(action='create' method='post')
+			.form-group#name-group
+				input.form-control(type='text' name='pollname' placeholder='Poll Name')
+			.form-group#option-group
+				input.form-control(type='text' name='option' placeholder='option 1')
+				input.form-control(type='text' name='option' placeholder='option 2')
+				input.form-control(type='text' name='option' placeholder='option 3')
+				input.form-control(type='text' name='option' placeholder='option 4')
+			button#new-opt.btn.btn-info(type='button') Add Option
+			button.btn.btn-success(type='submit') Create Poll
+		
+script(type='text/javascript' src='/public/js/create.client.js')
+script(type='text/javascript' src='/public/js/headers.client.js')

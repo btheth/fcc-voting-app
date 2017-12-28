@@ -1,0 +1,13 @@
+include ./headers.pug
+
+#main
+	center
+		h1 Welcome, 
+			span#user #{name}
+		
+		a.btn.btn-primary.create(href='/create') Create Poll
+		
+		#poll-table-div
+				
+script(type='text/javascript' src='/public/js/profile.client.js')
+script(type='text/javascript' src='/public/js/headers.client.js')

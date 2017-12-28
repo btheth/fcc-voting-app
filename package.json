@@ -1,0 +1,37 @@
+{
+  "name": "votingapp",
+  "version": "1.0.0",
+  "description": "fcc voting app",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btheth/fcc-voting-app.git"
+  },
+  "author": "btheth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btheth/fcc-voting-app/issues"
+  },
+  "homepage": "https://github.com/btheth/fcc-voting-app#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "chart.js": "^2.7.1",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.7",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.4.0",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.83.0"
+  }
+}

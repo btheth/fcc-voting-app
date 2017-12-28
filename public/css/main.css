@@ -1,0 +1,115 @@
+body {
+	margin: 0px !important; 
+	padding: 0px;
+	background-color: #bccad6 !important;
+	font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+#poll-table {
+	width: 35%;
+}
+
+table {
+	width: 25%;
+	font-size: 20px;
+}
+
+table {
+	padding: 10px;
+}
+
+.poll-name {
+	background-color: #f1e3dd;
+	border: 10px solid #bccad6;
+	padding: 10px;
+}
+
+.votes {
+	text-align: center;
+	color: white;
+	border: 10px solid #bccad6;
+	padding: 5px 5px 5px 10px;
+}
+
+.form-group {
+	width: 25%;
+}
+
+#poll-table-div {
+	margin: 10px;
+}
+
+#option-table-div {
+	width: 20%;
+}
+
+#new-opt {
+	margin: 0px 10px 0px 0px;
+}
+
+#custom-text {
+	width: 80%;
+}
+
+table th {
+	text-align: center;
+}
+
+#logo-main {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 50px;
+}
+
+#logo-header {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#login {
+	background-color: #f1e3dd;
+	margin: 0px;
+	width: 100%;
+	padding: 10px;
+}
+
+.home {
+	float: left;
+}
+
+.poll-option {
+	padding: 10px;
+	width: 100%;
+	background-color: #f1e3dd
+}
+
+.opt {
+	padding: 0px 0px 0px 10px;
+}
+
+.rad-btn {
+	background-color: #bccad6;
+}
+
+.login {
+	float: right;
+	margin: 0px 0px 0px 5px;
+}
+
+.page-title {
+	font-size: 22px;
+	margin: 0px 0px 0px 20px;
+}
+
+#main {
+	margin: 0px;
+}
+
+#share {
+	margin: 10px 0px 0px 0px;
+	font-size: 20px;
+}
+
+#link {
+	margin: 10px 0px 0px 0px;
+	font-size: 20px;
+	color: white;
+}
